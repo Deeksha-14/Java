@@ -1,0 +1,35 @@
+//code for armstrong number
+
+import java.util.*;
+public class Armst
+{
+	public static void main(String args[])
+	{
+		int i, sum=0, num;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter no : ");
+		i = sc.nextInt();
+		int copy = i;
+		
+		while(i!=0)
+		{
+			num = i%10;
+			sum = sum + num * num * num;
+			i=i/10;
+			
+			
+		}
+		
+		if(sum==copy)
+		{
+			System.out.println("Armstrong");
+		} else {
+			System.out.println("notArmstrong");
+		}
+		
+		sc.close();
+	}
+	
+}
+

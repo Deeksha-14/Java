@@ -1,0 +1,19 @@
+package AbsCls;
+
+abstract class Juice extends ColdDrink{
+	
+	
+	public abstract void juiceType(); 
+	
+	public Juice()
+	{
+		System.out.println("juice class constructor");
+	}
+	
+	@Override
+	public String toString()
+	{
+		return "This is Juice hi**";
+	}
+	
+}

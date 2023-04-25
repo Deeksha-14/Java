@@ -1,0 +1,47 @@
+package AbsCls;
+
+public class TesterCd {
+
+	public static void main(String[] args) {
+		SvnUp s = new SvnUp();
+		s.cdname();
+		s.clr();
+		s.taste();
+		s.price();
+		s.drinkType();
+		
+		System.out.println("==");
+	
+		Mazaa m = new Mazaa();
+		m.cdname();
+		m.taste();
+		m.clr();
+		m.price();
+		s.drinkType();
+		
+		System.out.println("==");
+		
+		MangoJuice mj = new MangoJuice();
+		System.out.println(mj);
+		mj.cdname();
+		mj.clr();
+		mj.taste();
+		mj.price();
+		mj.juiceType();
+		s.drinkType();
+		
+		
+		System.out.println("==");
+		
+		
+		AppleJuice aj = new AppleJuice();
+		aj.cdname();
+		aj.clr();
+		aj.taste();
+		aj.price();
+		aj.juiceType();
+		s.drinkType();
+
+	}
+
+}

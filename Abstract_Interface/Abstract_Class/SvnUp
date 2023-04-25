@@ -1,0 +1,29 @@
+package AbsCls;
+
+public class SvnUp extends ColdDrink{
+	
+	@Override
+	public void cdname()
+	{
+		System.out.println("Name of the cd : 7up");
+	}
+	
+	@Override
+	public void clr()
+	{
+		System.out.println("clr is : trasparent ");
+	}
+	
+	@Override
+	public void taste()
+	{
+		System.out.println("Taste is sweet but bitter");
+	}
+	
+	@Override
+	public void price()
+	{
+		System.out.println("Price : 70 rs");
+		
+	}
+	}

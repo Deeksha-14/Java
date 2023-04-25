@@ -1,0 +1,15 @@
+package AbsCls;
+
+public abstract class ColdDrink {
+	
+	public abstract void cdname();
+	public abstract void clr();
+	public abstract void taste();
+	public abstract void price();
+	
+	public final void drinkType()
+	{
+		System.out.println("==:Its a cold drink:==");
+	}
+
+}

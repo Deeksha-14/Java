@@ -1,0 +1,38 @@
+package AbsCls;
+
+public class MangoJuice extends Juice{
+	
+	
+	@Override
+	public void cdname()
+	{
+		System.out.println(" This is mango juice ");
+	}
+
+	@Override
+	public void clr()
+	{
+		System.out.println(" Yellow clr");
+	}
+
+	@Override
+	public void taste()
+	{
+		System.out.println(" Sweet");
+	}
+
+	@Override
+	public void price()
+	{
+		System.out.println("30 rs");
+	}
+
+	@Override
+	public void juiceType()
+	{
+		System.out.println("Natural juice");
+	}
+	
+	
+	
+}

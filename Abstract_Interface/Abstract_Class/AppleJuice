@@ -1,0 +1,37 @@
+package AbsCls;
+
+public class AppleJuice extends Juice{
+	
+	
+	@Override
+	public void cdname()
+	{
+		System.out.println("This is apple juice");
+	}
+	
+	@Override
+	public void clr()
+	{
+		System.out.println("Reddish");
+	}
+	
+	@Override
+	public void taste()
+	{
+		System.out.println("Sweetish apple");
+	}
+	
+	@Override
+	public void price()
+	{
+		System.out.println("price : 50rs");
+	}
+	
+	public void juiceType()
+	{
+		System.out.println("This is boxed juice");
+	}
+	
+	
+
+}

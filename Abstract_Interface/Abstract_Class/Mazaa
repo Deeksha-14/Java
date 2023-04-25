@@ -1,0 +1,29 @@
+package AbsCls;
+
+public class Mazaa extends ColdDrink {
+
+	@Override
+	public void cdname()
+	{
+		System.out.println("this is Mazaa");
+	}
+	
+	@Override
+	public void clr()
+	{
+		System.out.println("yellowOrangish");
+	}
+	
+	@Override
+	public void taste()
+	{
+		System.out.println("Sweet");
+	}
+	
+	@Override
+	public void price()
+	{
+		System.out.println("The price is : 60rs.");
+	}
+	
+}
